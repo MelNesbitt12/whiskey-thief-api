@@ -59,7 +59,6 @@ router.get('/whiskeys/:id', requireToken, (req, res, next) => {
 // CREATE
 // POST /whiskeys
 router.post('/whiskeys', requireToken, (req, res, next) => {
-  console.log('hi')
   // set owner of new whiskey to be current user
   req.body.whiskey.owner = req.user.id
   Whiskey.create(req.body.whiskey)
