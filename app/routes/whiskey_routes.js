@@ -34,9 +34,6 @@ router.get('/whiskeys', requireToken, (req, res, next) => {
   const owner = req.user.id
   Whiskey.find({owner: owner})
     .then(whiskeys => {
-      // `whiskeys` will be an array of Mongoose documents
-      // we want to convert each one to a POJO, so we use `.map` to
-      // apply `.toObject` to each one
       return whiskeys.map(whiskey => whiskey.toObject())
     })
     // respond with status 200 and JSON of the whiskeys
