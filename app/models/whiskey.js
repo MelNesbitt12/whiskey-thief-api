@@ -17,6 +17,10 @@ const whiskeySchema = new mongoose.Schema({
     type: Number,
     required: true
   },
+  comments: {
+    type: String,
+    required: true
+  },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
