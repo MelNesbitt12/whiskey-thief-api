@@ -46,15 +46,14 @@ In the next version of my project, I would like to give users the ability to add
 
 ### API End Points
 
-Verb	 URI Pattern
-POST	  /sign-up
-POST	  /sign-in
-DELETE	/sign-out
-PATCH	  /change-password
-GET	    /whiskeys
-POST	  /whiskeys
-PATCH	  /whiskeys/:id
-DELETE  /whiskeys/:id
+* POST	  /sign-up
+* POST	  /sign-in
+* DELETE	/sign-out
+* PATCH	  /change-password
+* GET	    /whiskeys
+* POST	  /whiskeys
+* PATCH	  /whiskeys/:id
+* DELETE  /whiskeys/:id
 
 #### Wireframe:
 [Whiskey Thief Client Wirefame] https://imgur.com/a/VJGwNSA
