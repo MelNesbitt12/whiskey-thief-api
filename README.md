@@ -6,9 +6,9 @@ I came up with this idea after spending the last year collecting over 50 bottles
 
 ## Important Links
 
-* [Whiskey Thief Client Repo] https://github.com/MelNesbitt12/whiskey-thief-client
-* [Deployed Whiskey Thief API] https://rocky-fjord-04258.herokuapp.com/
-* [Deployed Whiskey Thief Client Application] https://melnesbitt12.github.io/whiskey-thief-client/
+- [Whiskey Thief Client Repo](https://github.com/MelNesbitt12/whiskey-thief-client)
+- [Deployed Whiskey Thief API](https://rocky-fjord-04258.herokuapp.com/)
+- [Deployed Whiskey Thief Client Application](https://melnesbitt12.github.io/whiskey-thief-client/)
 
 ## Planning Story
 
@@ -22,19 +22,19 @@ As I worked on the back end, I used our development environment to test out auth
 
 ### User Stories
 
-* As a user, I need to be able to sign in, create an account, sign out, and change my password.
-* As a user, I need to be able to add new whiskeys to my whiskey shelf.
-* As a user, I need to be able to update information about my whiskeys, including adding comments specific to each whiskey.
-* As a user, I need to be able to see a list of all whiskeys that I've tried.
-* As a user, I need to be able to delete whiskeys from my account.
+- As a user, I need to be able to sign in, create an account, sign out, and change my password.
+- As a user, I need to be able to add new whiskeys to my whiskey shelf.
+- As a user, I need to be able to update information about my whiskeys, including adding comments specific to each whiskey.
+- As a user, I need to be able to see a list of all whiskeys that I've tried.
+- As a user, I need to be able to delete whiskeys from my account.
 
 ### Technologies Used
 
 My Whiskey Thief API was built with:
-  * MongoDB
-  * Mongoose
-  * Express
-  * Nodejs
+  - MongoDB
+  - Mongoose
+  - Express
+  - Nodejs
 
 ### Unsolved Problems
 
@@ -56,9 +56,9 @@ In the next version of my project, I would like to give users the ability to add
 * DELETE  /whiskeys/:id
 
 #### Wireframe:
-[Whiskey Thief Client Wirefame] https://imgur.com/a/VJGwNSA
+[Whiskey Thief Client Wirefame](https://imgur.com/a/VJGwNSA)
 
 ---
 
 #### ERD:
-![Whiskey Thief API ERD] https://imgur.com/a/gq0rUye
+[Whiskey Thief API ERD](https://imgur.com/a/gq0rUye)
